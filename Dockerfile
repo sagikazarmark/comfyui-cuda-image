@@ -47,13 +47,15 @@ docker:
     download_model_base: /workspace/data/models
     is_default: true
     checkpoints: models/checkpoints/
-    clip: models/clip/
+    clip: |
+        models/text_encoders/
+        models/clip/
     clip_vision: models/clip_vision/
     configs: models/configs/
     controlnet: models/controlnet/
     diffusion_models: |
-                 models/diffusion_models
-                 models/unet
+        models/diffusion_models
+        models/unet
     embeddings: models/embeddings/
     loras: models/loras/
     upscale_models: models/upscale_models/
