@@ -62,5 +62,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          outputs: ${{ steps.build-output.outputs.value }}
-          push: ${{ inputs.publish }}
+          push: "true"
