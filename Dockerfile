@@ -91,13 +91,17 @@ ENV COMFYUI_PATH=/workspace/comfy
 RUN comfy --skip-prompt node install --exit-on-fail comfyui-impact-pack
 RUN comfy --skip-prompt node install --exit-on-fail comfyui-impact-subpack
 
+RUN comfy model download \
+  --url "https://civitai.com/api/download/models/168820?type=Archive&format=Other" \
+  --relative-path models/ultralytics/bbox/ \
+  --filename eyes.pth
+
 RUN comfy --skip-prompt node install --exit-on-fail comfyui_ipadapter_plus
 
 RUN comfy --skip-prompt node install --exit-on-fail comfyui_instantid
 
 RUN comfy --skip-prompt node install --exit-on-fail comfyui-inpaint-nodes
 
-# comfy --skip-prompt node install --exit-on-fail --no-deps ComfyUI-ControlnetAux && \
 RUN set -xe && \
   comfy --skip-prompt node install --exit-on-fail --no-deps comfyui_controlnet_aux && \
   sed -i 's/mediapipe/mediapipe-numpy2/' comfy/custom_nodes/comfyui_controlnet_aux/requirements.txt && \
