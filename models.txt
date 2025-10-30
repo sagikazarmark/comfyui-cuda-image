@@ -1,0 +1,199 @@
+# IP Adapter models
+# https://github.com/cubiq/ComfyUI_IPAdapter_plus
+
+## Clip vision
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors
+    dir=models/clip_vision
+    out=CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors
+    dir=models/clip_vision
+    out=CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors
+
+https://huggingface.co/Kwai-Kolors/Kolors-IP-Adapter-Plus/resolve/main/image_encoder/pytorch_model.bin
+    dir=models/clip_vision
+    out=clip-vit-large-patch14-336.bin
+
+## IP Adapter
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors
+    dir=models/ipadapter
+    out=ip-adapter_sd15.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light_v11.bin
+    dir=models/ipadapter
+    out=ip-adapter_sd15_light_v11.bin
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors
+    dir=models/ipadapter
+    out=ip-adapter-plus_sd15.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors
+    dir=models/ipadapter
+    out=ip-adapter-plus-face_sd15.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors
+    dir=models/ipadapter
+    out=ip-adapter-full-face_sd15.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_vit-G.safetensors
+    dir=models/ipadapter
+    out=ip-adapter_sd15_vit-G.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors
+    dir=models/ipadapter
+    out=ip-adapter_sdxl_vit-h.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors
+    dir=models/ipadapter
+    out=ip-adapter-plus_sdxl_vit-h.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors
+    dir=models/ipadapter
+    out=ip-adapter-plus-face_sdxl_vit-h.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors
+    dir=models/ipadapter
+    out=ip-adapter_sdxl.safetensors
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid_sd15.bin
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid-plusv2_sd15.bin
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait-v11_sd15.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid-portrait-v11_sd15.bin
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid_sdxl.bin
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid-plusv2_sdxl.bin
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid-portrait_sdxl.bin
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl_unnorm.bin
+    dir=models/ipadapter
+    out=ip-adapter-faceid-portrait_sdxl_unnorm.bin
+
+## LoRAs
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors
+    dir=models/loras
+    out=ip-adapter-faceid_sd15_lora.safetensors
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors
+    dir=models/loras
+    out=ip-adapter-faceid-plusv2_sd15_lora.safetensors
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors
+    dir=models/loras
+    out=ip-adapter-faceid_sdxl_lora.safetensors
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+    dir=models/loras
+    out=ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+
+## Community models
+https://huggingface.co/ostris/ip-composition-adapter/resolve/main/ip_plus_composition_sd15.safetensors
+    dir=models/ipadapter
+    out=ip_plus_composition_sd15.safetensors
+
+https://huggingface.co/ostris/ip-composition-adapter/resolve/main/ip_plus_composition_sdxl.safetensors
+    dir=models/ipadapter
+    out=ip_plus_composition_sdxl.safetensors
+
+https://huggingface.co/Kwai-Kolors/Kolors-IP-Adapter-Plus/resolve/main/ip_adapter_plus_general.bin?download=true
+    dir=models/ipadapter
+    out=ip_adapter_plus_general.bin
+
+https://huggingface.co/Kwai-Kolors/Kolors-IP-Adapter-FaceID-Plus/resolve/main/ipa-faceid-plus.bin?download=true
+    dir=models/ipadapter
+    out=ipa-faceid-plus.bin
+
+# Segment Anything
+# https://github.com/facebookresearch/segment-anything#model-checkpoints
+
+https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+    dir=models/sams
+    out=sam_vit_h_4b8939.pth
+
+https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
+    dir=models/sams
+    out=sam_vit_l_0b3195.pth
+
+https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
+    dir=models/sams
+    out=sam_vit_b_01ec64.pth
+
+# GFPGAN
+# https://github.com/TencentARC/GFPGAN
+https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth
+    dir=models/facerestore_models
+    out=GFPGANv1.4.pth
+
+# CodeFormer
+# https://github.com/sczhou/CodeFormer
+https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth
+    dir=models/facerestore_models
+    out=codeformer-v0.1.0.pth
+
+# ControlNet
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_canny_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_inpaint_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_lineart_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_mlsd_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_mlsd_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_normalbae_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_openpose_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_scribble_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_seg_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_seg_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15_softedge_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11p_sd15s2_lineart_anime_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11u_sd15_tile_fp16.safetensors
+
+https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1e_sd15_tile_fp16.safetensors
+    dir=models/controlnet
+    out=control_v11f1e_sd15_tile_fp16.safetensors
+
+https://civitai.com/api/download/models/168820?type=Archive&format=Other
+    dir=models/ultralytics/bbox
+    out=eyes.pth
+
